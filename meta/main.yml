@@ -1,0 +1,26 @@
+galaxy_info:
+  role_name: mariadb-databases
+  author: iquzart
+  description: Setup databases on MaraDB or MySQL
+  license: MIT
+  min_ansible_version: 2.9
+  platforms:
+    - name: EL
+      versions:
+        - 8
+        - 7  
+    - name: Ubuntu
+      versions:
+        - Focal
+        - Disco
+        - Bionic
+    - name: Debian
+      versions:
+        - buster
+        - stretch
+  galaxy_tags:
+    - mariadb
+    - mysql
+    - databases
+dependencies:
+  - iquzart.mariadb
