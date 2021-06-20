@@ -1,7 +1,7 @@
-Role Name
+Database Setup on MariaDB or MySQL
 =========
 
-A brief description of the role goes here.
+Ansible role to setup databases on MariaDB or MySQL
 
 Requirements
 ------------
